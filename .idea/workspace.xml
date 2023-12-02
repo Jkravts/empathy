@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c625bbd8-0636-4f5c-a7a3-b7885e1edd6d" name="Changes" comment="sec 2">
+    <list default="true" id="c625bbd8-0636-4f5c-a7a3-b7885e1edd6d" name="Changes" comment="add 3 part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -50,7 +50,7 @@
       <updated>1700931232922</updated>
       <workItem from="1700931233951" duration="11374000" />
       <workItem from="1701115607699" duration="293000" />
-      <workItem from="1701454262243" duration="12141000" />
+      <workItem from="1701454262243" duration="14087000" />
     </task>
     <task id="LOCAL-00001" summary="sec 2">
       <option name="closed" value="true" />
@@ -68,7 +68,23 @@
       <option name="project" value="LOCAL" />
       <updated>1701532228165</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sec 2">
+      <option name="closed" value="true" />
+      <created>1701534563975</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1701534563976</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add 3 part">
+      <option name="closed" value="true" />
+      <created>1701534587273</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701534587273</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sec 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="sec 2" />
+    <MESSAGE value="add 3 part" />
+    <option name="LAST_COMMIT_MESSAGE" value="add 3 part" />
   </component>
 </project>
