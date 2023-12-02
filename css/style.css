@@ -333,3 +333,17 @@ header {
     margin-top: 20px;
 }
 
+.third_block{
+    height: 3480px;
+    background: #F4EFE9;
+    min-width: 1200px;
+}
+.option1{
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    width: 100%;
+    height: 600px;
+    justify-content: space-around;
+    align-items: center;
+}
