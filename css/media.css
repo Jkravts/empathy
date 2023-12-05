@@ -1,0 +1,349 @@
+@media (max-width: 767px){
+
+    .container{
+        max-width: 100%;
+    }
+
+    .container nav ul{
+        list-style-type: none;
+        display: block;
+        padding: 0 15px;
+    }
+
+    .container img{
+        padding: 0 15px;
+    }
+
+    .family_box{
+        position: static;
+        padding: 0 15px;
+    }
+
+    .article h1{
+        font-size: 26px;
+        line-height: 32px;
+        margin: 40px;
+        text-align: center;
+
+    }
+
+    .article h3{
+        font-size: 15px;
+        line-height: 20px;
+        margin: 40px;
+        text-align: center;
+
+    }
+
+    .article p{
+        max-width: 100%;
+        margin: 40px;
+        text-align: center;
+    }
+
+    .text_part{
+        display: block;
+    }
+
+    .family{
+        max-width: 100%;
+        position: static;
+        display: block;
+        padding: 30px;
+        align-items: center;
+    }
+
+    .family_photo{
+        width: 100%;
+        padding-top: 30px;
+    }
+
+    .form{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .placeholder{
+        margin-bottom: 20px;
+    }
+
+    .button{
+        /*margin: auto;*/
+        width: 120px;
+        /*height: 80px;*/
+        font-size: 10px;
+        padding: 10px 20px;
+    }
+
+    .free_block{
+        position: static;
+        text-align: center;
+        display: block;
+        align-items: center;
+        /*flex-direction: column;*/
+    }
+
+    .free_block article h2{
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 20px;
+
+    }
+
+    .free_block article p{
+        margin: auto;
+        line-height: 22px;
+        display: block;
+        text-align: center;
+        padding: 0 15px 30px 15px;
+    }
+
+    .free_block article a{
+        padding: 8px 20px;
+        font-size: 14px;
+
+    }
+
+    .orange{
+        padding-top: 0;
+        position: static;
+
+    }
+
+    .orange div{
+        width: 100%;
+        display: block;
+        flex-direction: column;
+        margin:auto;
+    }
+
+    .orange div h2{
+        text-align: center;
+        font-size: 32px;
+        padding-top: 30px;
+    }
+
+    .orange div ul li {
+        position: static;
+    }
+
+    .orange div ul li h4{
+        padding: 15px;
+        text-align: center;
+        line-height: 24px;
+    }
+
+
+    .orange div ul li p{
+        text-align: center;
+    }
+
+    .orange div ul li{
+        position: static;
+        margin: 70px;
+        list-style: none;
+    }
+
+    .third_block{
+        min-height: auto;
+        padding-top: 40px;
+    }
+
+    .option1{
+        display: block;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        position: static;
+    }
+
+    .option1 img{
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .option1 article h4{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .option1 article p{
+        text-align: center;
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .option2{
+        display: block;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        position: static;
+    }
+
+    .option2 img{
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .option2 article h4{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .option2 article p{
+        text-align: center;
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+        order: 2;
+    }
+
+
+    .option3{
+        display: block;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        position: static;
+    }
+
+    .option3 img{
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .option3 article h4{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .option3 article p{
+        text-align: center;
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    .option4{
+        display: block;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        position: static;
+    }
+
+
+.option4 img{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+    .option4 article h4{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .option4 article p{
+        text-align: center;
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+    }
+
+    .option5{
+        display: block;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        position: static;
+    }
+
+    .option5 img{
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .option5 article h4{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    .option5 article p{
+        padding: 0 15px;
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+
+    .windows_block div{
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+        /*align-content: center;*/
+        justify-content: center;
+    }
+
+    .windows_block div img{
+        margin: 10px ;
+    }
+
+    .windows_block a{
+        margin-bottom: 20px;
+    }
+
+    .sec_block{
+        position: static;
+        text-align: center;
+        display: block;
+        align-items: center;
+        /*flex-direction: column;*/
+    }
+
+    .sec_block article h3{
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 20px;
+
+    }
+
+    .sec_block article p{
+        margin: auto;
+        line-height: 22px;
+        display: block;
+        text-align: center;
+        padding: 0 15px 30px 15px;
+    }
+
+    .bordo{
+        height: auto;
+        position: static;
+        padding-top: 0;
+    }
+
+    .bordo h4{
+        padding-top: 30px;
+    }
+
+    .bordo p{
+        line-height: 26px;
+        font-size: 25px;
+    }
+
+    .bordo h6{
+        padding-bottom: 30px;
+    }
+
+}
