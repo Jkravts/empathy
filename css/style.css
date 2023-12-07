@@ -545,9 +545,36 @@ header {
 }
 
 .windows_block{
-    min-height: 832px;
-    max-width: 100%;
+    min-height: 734px;
+    width: 100%;
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+    /*align-items: center;*/
+
 }
+.clients{
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clients a{
+    max-width: 160px;
+    display: inline-block;
+}
+
+
+.clients .owl-stage{
+    display: flex;
+    align-items: center;
+}
+
+.clients .owl-carousel .owl-items{
+    text-align: center;
+}
+
+
 .windows_block h2{
     color: #1E1928;
     text-align: center;
@@ -560,17 +587,13 @@ header {
     margin-bottom: 80px;
     margin-top: 144px;
 }
-.windows_block div{
-    display: flex;
-    /*margin: auto;*/
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 80px;
 
-}
-.windows_block a{
+
+
+.library{
     border-radius: 9999px;
     border: 1px solid #1E1928;
+    /*width: 168px;*/
     height: 40px;
     flex-shrink: 0;
     text-align: center;
@@ -585,7 +608,6 @@ header {
     display: block;
     margin: 0 auto;
     width: fit-content;
-
 }
 
 /*.library{*/

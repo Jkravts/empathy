@@ -288,6 +288,10 @@
         text-align: center;
     }
 
+    .windows_block{
+    min-height: 734px;
+    width: 100%;
+    }
 
     .windows_block div{
         /*flex-wrap: wrap;*/
@@ -301,7 +305,7 @@
     }
 
     .windows_block a{
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
 
     .sec_block{
