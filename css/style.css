@@ -826,7 +826,7 @@ h6{
     display: block;
     position: absolute;
     right: 10px;
-    background-image: url("/images/arrowdown.svg");
+    background-image: url("/images/arrowdown1.svg");
     content: "";
     background-size: cover;
     background-repeat: no-repeat;
@@ -840,7 +840,7 @@ h6{
     position: absolute;
     right: 10px;
     content: "";
-    background-image: url("/images/arrowup.svg");
+    background-image: url("/images/arrowup1.svg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 20px;
