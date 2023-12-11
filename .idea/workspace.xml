@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c625bbd8-0636-4f5c-a7a3-b7885e1edd6d" name="Changes" comment="added accordeon 3">
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    <list default="true" id="c625bbd8-0636-4f5c-a7a3-b7885e1edd6d" name="Changes" comment="added accordeon 5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +75,7 @@
       <workItem from="1702049225053" duration="1729000" />
       <workItem from="1702071659404" duration="2343000" />
       <workItem from="1702137393086" duration="5752000" />
-      <workItem from="1702161472178" duration="12745000" />
+      <workItem from="1702161472178" duration="13375000" />
     </task>
     <task id="LOCAL-00001" summary="sec 2">
       <option name="closed" value="true" />
@@ -276,7 +277,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702325655525</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="added accordeon 4">
+      <option name="closed" value="true" />
+      <created>1702326306543</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1702326306543</updated>
+    </task>
+    <task id="LOCAL-00027" summary="added accordeon 5">
+      <option name="closed" value="true" />
+      <created>1702326615415</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1702326615415</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +318,8 @@
     <MESSAGE value="added accordeon" />
     <MESSAGE value="added accordeon 2" />
     <MESSAGE value="added accordeon 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="added accordeon 3" />
+    <MESSAGE value="added accordeon 4" />
+    <MESSAGE value="added accordeon 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="added accordeon 5" />
   </component>
 </project>
