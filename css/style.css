@@ -751,3 +751,101 @@ h6{
     letter-spacing: 0.252px;
 
 }
+
+
+.faq{
+    padding: 100px;
+    background-color: #FFFFFF;
+}
+
+.faq h4{
+    color: black;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+}
+
+.faq p{
+    color: black;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    padding: 5px;
+    list-style: -moz-bengali;
+}
+
+
+.container_faq {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.faq .ui-accordion .ui-accordion-header{
+    background-color: white;
+    border: solid 1px black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 40px;
+
+}
+
+.faq .ui-accordion .ui-accordion-header.ui-state-active{
+    color: black;
+    background-color: #f8f3db;
+    /*padding: 15px;*/
+    /*margin-bottom: 20px;*/
+    border-radius: 10px 10px 0 0;
+    border-bottom: none;
+
+}
+
+.faq .ui-accordion .ui-accordion-content{
+    background-color: #f8f3db;
+    font-weight: normal;
+    border-radius: 0 0 10px 10px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    /*margin-bottom: 20px;*/
+}
+
+.faq .ui-accordion .ui-accordion-header .ui-icon{
+    background-image: none;
+    position: absolute;
+    right: 20px;
+    width: 50px;
+    top: 50%;
+}
+
+
+.faq .ui-accordion .ui-accordion-header .ui-icon:after{
+    display: block;
+    position: absolute;
+    right: 10px;
+    background-image: url("/images/arrowdown.svg");
+    content: "";
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+
+.faq .ui-accordion .ui-accordion-header.ui-state-active .ui-icon:after{
+    display:block;
+    position: absolute;
+    right: 10px;
+    content: "";
+    background-image: url("/images/arrowup.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 20px;
+}
+
+
