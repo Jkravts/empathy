@@ -4,16 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c625bbd8-0636-4f5c-a7a3-b7885e1edd6d" name="Changes" comment="added accordeon 6">
-      <change afterPath="$PROJECT_DIR$/css/mobile_m.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style_preproc.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style_preproc.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style_preproc.scss" afterDir="false" />
+    <list default="true" id="c625bbd8-0636-4f5c-a7a3-b7885e1edd6d" name="Changes" comment="mob m">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_preproc.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_preproc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_preproc.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_preproc.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style_preproc.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/style_preproc.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +97,9 @@
       <workItem from="1702947043649" duration="40000" />
       <workItem from="1702948778994" duration="124000" />
       <workItem from="1702950801877" duration="1218000" />
-      <workItem from="1702952152547" duration="336000" />
+      <workItem from="1702952152547" duration="1596000" />
+      <workItem from="1702986318468" duration="1780000" />
+      <workItem from="1702999943768" duration="1750000" />
     </task>
     <task id="LOCAL-00001" summary="sec 2">
       <option name="closed" value="true" />
@@ -359,7 +357,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702371426457</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="mob m">
+      <option name="closed" value="true" />
+      <created>1702952510602</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1702952510602</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,6 +393,7 @@
     <MESSAGE value="added accordeon 4" />
     <MESSAGE value="added accordeon 5" />
     <MESSAGE value="added accordeon 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="added accordeon 6" />
+    <MESSAGE value="mob m" />
+    <option name="LAST_COMMIT_MESSAGE" value="mob m" />
   </component>
 </project>
