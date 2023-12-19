@@ -9,32 +9,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.default.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://resources/demos/style.css">
+    <link rel="stylesheet" href="css/mobile_m.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+<!--    <link rel="stylesheet" href="css/style_preproc.css">-->
+
 </head>
 
 <body>
 
 <header>
     <div class="container">
-        <img src="images/Logo.svg" alt="Logo">
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">About</a>
-                </li>
-                <li>
-                    <a href="#">Learn</a>
-                </li>
-                <li>
-                    <a href="#"> Partner </a>
-                </li>
-                <li>
-                    <a href="#"> COVID-19 </a>
-                </li>
-            </ul>
+
+        <a class="logo" href="#">
+            <img src="./images/logo2.svg" alt="Logo">
+        </a>
+        <div class="nav-but-wrap">
+            <div class="menu-icon hover-target">
+                <span class="menu-icon__line menu-icon__line-left"></span>
+                <span class="menu-icon__line"></span>
+                <span class="menu-icon__line menu-icon__line-right"></span>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="nav__content">
+                <ul class="nav__list">
+                    <li class="nav__list-item active-nav"><a href="#" class="hover-target">About</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Learn</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">Partner</a></li>
+                    <li class="nav__list-item"><a href="#" class="hover-target">COVID-19</a></li>
+                </ul>
+            </div>
         </nav>
     </div>
 </header>
+
+
+<!--<header>-->
+<!--    <div class="container">-->
+<!--        <img src="./images/logo2.svg" alt="Logo">-->
+<!--        <nav>-->
+
+<!--            <ul>-->
+<!--                <li>-->
+<!--                    <a href="#">About</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Learn</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#"> Partner </a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#"> COVID-19 </a>-->
+<!--                </li>-->
+<!--            </ul>-->
+<!--        </nav>-->
+<!--    </div>-->
+<!--</header>-->
 
 <main>
 
@@ -46,7 +82,6 @@
                     is hard enough
                 </h1>
 
-                <!--                    <div class="paragraph">-->
                 <h3>
                     Empathy is here to help you with everything that comes next.
                 </h3>
@@ -58,13 +93,12 @@
                     Try it for free:
                 </p>
 
-                <!--Button with phone number-->
+                <!--phone number-->
                 <form class="form" action="#" method="get">
                     <input class="placeholder" type="number" placeholder="(222) 123-4512">
                     <button type="submit" class="button">Text Me the App</button>
                 </form>
 
-                <!--                    </div>-->
             </article>
 
             <div class="family">
@@ -104,102 +138,160 @@
         </div>
 
     </section>
-<section class="third_block">
-    <div class="option1">
-        <article>
-            <h4>Built for peace of mind.</h4>
-            <p>Empathy is designed to show you the specific steps to take, based<br> on
-                your unique situation and at your own pace. Whether you’re<br> planning a funeral,
-                managing an estate, or dealing with any other<br> arrangements, get the knowledge
-                and support you need.</p>
-        </article>
-        <img src="./images/today.png" alt="today">
+    <section class="third_block">
+        <div class="option1">
+            <article>
+                <h4>Built for peace of mind.</h4>
+                <p>Empathy is designed to show you the specific steps to take, based<br> on
+                    your unique situation and at your own pace. Whether you’re<br> planning a funeral,
+                    managing an estate, or dealing with any other<br> arrangements, get the knowledge
+                    and support you need.</p>
+            </article>
+            <img src="./images/today.png" alt="today">
 
-    </div>
-    <div class="option2">
-        <img src="./images/standing.png" alt="standing">
-        <article>
-            <h4>Standing by to assist you.</h4>
-            <p>Chat with an expert who understands what you’re going through.<br>
-                Our loss experts will provide you with the answers you need, or help<br> you
-                find local professionals. They can even take some tasks off your<br> hands and
-                do them for you.</p>
+        </div>
+        <div class="option2">
+            <img src="./images/standing.png" alt="standing">
+            <article>
+                <h4>Standing by to assist you.</h4>
+                <p>Chat with an expert who understands what you’re going through.<br>
+                    Our loss experts will provide you with the answers you need, or help<br> you
+                    find local professionals. They can even take some tasks off your<br> hands and
+                    do them for you.</p>
 
-        </article>
+            </article>
 
-    </div>
-    <div class="option3">
-        <article>
-            <h4>Easily track and collect benefits.</h4>
-            <p>Get simple and immediate guidance to all the benefits your family<br>
-                may be entitled to—including many you may not have known about.<br>
-                The app helps you locate, determine eligibility, and collect on these<br>
-                important sources of funding for the funeral and the estate.</p>
-        </article>
-        <img src="./images/easily.png" alt="easily">
-    </div>
-    <div class="option4">
-        <img src="./images/paperwork.png" alt="paperwork">
-        <article>
-            <h4>Paperwork, figured out.</h4>
-            <p>The app helps you locate and safely store important papers, and guides you<br>
-                through handling them. Bills, debt, unused services, insurance policies, bank<br>
-                accounts, and more, to help you stay organized and in control.</p>
-        </article>
-    </div>
-    <div class="option5">
-        <article>
-            <h4>Listen in. Understand grief.</h4>
-            <p>Grief is a fundamental human experience, and navigating it underlies<br> every aspect of the Empathy app. Original audio chapters walk you<br> through the tangled processes of grieving to help you observe,<br> understand, and come to grips with what you're going through.</p>
-        </article>
-        <img src="./images/listen.png">
-    </div>
+        </div>
+        <div class="option3">
+            <article>
+                <h4>Easily track and collect benefits.</h4>
+                <p>Get simple and immediate guidance to all the benefits your family<br>
+                    may be entitled to—including many you may not have known about.<br>
+                    The app helps you locate, determine eligibility, and collect on these<br>
+                    important sources of funding for the funeral and the estate.</p>
+            </article>
+            <img src="./images/easily2.png" alt="easily">
+        </div>
+        <div class="option4">
+            <img src="./images/paperwork.png" alt="paperwork">
+            <article>
+                <h4>Paperwork, figured out.</h4>
+                <p>The app helps you locate and safely store important papers, and guides you<br>
+                    through handling them. Bills, debt, unused services, insurance policies, bank<br>
+                    accounts, and more, to help you stay organized and in control.</p>
+            </article>
+        </div>
+        <div class="option5">
+            <article>
+                <h4>Listen in. Understand grief.</h4>
+                <p>Grief is a fundamental human experience, and navigating it underlies<br> every aspect of the Empathy app. Original audio chapters walk you<br> through the tangled processes of grieving to help you observe,<br> understand, and come to grips with what you're going through.</p>
+            </article>
+            <img src="./images/listen.png">
+        </div>
 
 
-    <section class="windows_block">
-        <h2>Get in-depth knowledge to help you navigate the maze of loss.</h2>
-        <div>
-            <img src="images/benefits.png" alt="benefit">
-            <img src="images/managing.png" alt="managing">
-            <img src="images/taxes.png" alt="taxes">
-            <img src="images/identify.png" alt="identify">
-            <img src="images/immediate.png" alt="immediate">
-            <img src="images/probate.png" alt="probate">
-            <img src="images/grief.png" alt="grief">
-            <img src="images/funeral.png" alt="funeral">
-            <img src="images/will.png" alt="will">
+        <section class="windows_block">
+            <h2>Get in-depth knowledge to help you navigate the maze of loss.</h2>
+
+            <div class="clients owl-carousel">
+                <img src="./images/benefits.jpg" alt="benefit">
+                <img src="./images/managing.jpg" alt="managing">
+                <img src="./images/taxes.jpg" alt="taxes">
+                <img src="./images/identify.jpg" alt="identify">
+                <img src="./images/immediate.jpg" alt="immediate">
+                <img src="./images/probate.jpg" alt="probate">
+                <img src="./images/grief.jpg" alt="grief">
+                <img src="./images/funeral.jpg" alt="funeral">
+                <img src="./images/will.jpg" alt="will">
             </div>
-       <a href="">See Full Library</a>
-
-    </section>
-    <section class="bordo">
-        <section >
-            <div class="sec_block">
-                <h3>Your security is our priority.</h3>
-                <p>Empathy is committed to ensuring that your data is and
-                    will always be safe and <br> private. We use bank-level 256-bit encryption to store and
-                    transmit data, and <br> your most private information is protected with two-factor authentication.</p>
-            </div>
+            <a class="library" href="">See Full Library</a>
         </section>
-        <h4>In the words of our users</h4>
-<!--        <h4>“<h4>-->
-        <p>“I feel bad for those that have to go through this alone,<br>
-            because there's so many that do, and I feel that the process is<br>
-            such a debacle. It's just a mess. There's so much to do, there's<br>
-            so much to know. One wrong move and you can have all your<br>
-            bank accounts frozen.”
-        </p>
-        <h6>– Roger, 31, Ohio</h6>
+
+        <section class="bordo">
+            <section>
+                <div class="sec_block">
+                    <article>
+                        <h3>Your security is our priority.</h3>
+                        <p>Empathy is committed to ensuring that your data is and
+                            will always be safe and <br> private. We use bank-level 256-bit encryption to store and
+                            transmit data, and <br> your most private information is protected with two-factor authentication.</p>
+                    </article>
+                </div>
+            </section>
+            <h4>In the words of our users</h4>
+            <!--        <h4>“<h4>-->
+            <p>“I feel bad for those that have to go through this alone,<br>
+                because there's so many that do, and I feel that the process is<br>
+                such a debacle. It's just a mess. There's so much to do, there's<br>
+                so much to know. One wrong move and you can have all your<br>
+                bank accounts frozen.”
+            </p>
+            <h6>– Roger, 31, Ohio</h6>
+        </section>
+
+
     </section>
+    <section class="faq">
+        <div class="container_faq">
+            <h4>FAQ</h4>
+            <div id="accordion">
+                <h3>Section 1</h3>
+                <div>
+                    <p>
+                        Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                        ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                        amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                        odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+                    </p>
+                </div>
+                <h3>Section 2</h3>
+                <div>
+                    <p>
+                        Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                        purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                        velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                        suscipit faucibus urna.
+                    </p>
+                </div>
+                <h3>Section 3</h3>
+                <div>
+                    <p>
+                        Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                        Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                        ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                        lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+                    </p>
+                    <!--                    <ul>-->
+                    <!--                        <li>List item one</li>-->
+                    <!--                        <li>List item two</li>-->
+                    <!--                        <li>List item three</li>-->
+                    <!--                    </ul>-->
+                </div>
+                <h3>Section 4</h3>
+                <div>
+                    <p>
+                        Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                        et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                        mauris vel est.
+                    </p>
+                    <p>
+                        Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                        Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                        inceptos himenaeos.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-
-</section>
-
-
-
+    </section>
 
 </main>
-
+<script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+        crossorigin="anonymous"></script>
+<script src="js/owl.carousel.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
-
